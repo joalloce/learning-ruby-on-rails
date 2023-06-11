@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MDPostLayout.astro
 title: "Title"
 topics: ["first", "second"]
 ---
