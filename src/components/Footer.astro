@@ -1,7 +1,11 @@
 ---
+import GitHubIcon from "./icons/github";
 import { REPO_URL } from "../config";
 
 const today = new Date();
 ---
 
-<footer>{today.getFullYear()} <a href={REPO_URL}>Repo</a></footer>
+<footer class="text-center p-4 text-base">
+  <span>{today.getFullYear()}</span>
+  <a href={REPO_URL} target="_blank"><GitHubIcon />Source</a>
+</footer>
