@@ -1,0 +1,22 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Body from "../components/Body.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+
+import { DESCRIPTION, SITE_TITLE } from "../config";
+---
+
+<!DOCTYPE html>
+<html lang="en" class="bg-ruby-on-rails">
+  <head>
+    <BaseHead title={SITE_TITLE} description={DESCRIPTION} />
+  </head>
+  <Body>
+    <Header />
+    <main class="pt-16 p-4">
+      <slot />
+    </main>
+    <Footer />
+  </Body>
+</html>

@@ -1,20 +1,7 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
-import Body from "../components/Body.astro";
-import Footer from "../components/Footer.astro";
-import Header from "../components/Header.astro";
-
-import { DESCRIPTION, SITE_TITLE } from "../config";
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <BaseHead title={SITE_TITLE} description={DESCRIPTION} />
-  </head>
-  <Body>
-    <Header />
-    <h1>Hello World</h1>
-    <Footer />
-  </Body>
-</html>
+<BaseLayout>
+  <h1 class="font-bold text-xl">Notes as I'm learning Ruby on Rails</h1>
+</BaseLayout>
