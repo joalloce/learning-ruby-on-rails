@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.md-h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.md-h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.md-h3 {
+	font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.md-h4 {
+	font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.md-h5 {
+  font-size: 1.125rem; 
+  line-height: 1.75rem; 
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.md-h6 {
+	font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.md-p {
+  margin-top: 0.5rem;
+}
+
+.md-a {
+  text-decoration: underline #D30001;
+}
+.md-a:hover {
+  color: #D30001;
+}
+
+.md-hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.md-ul {
+  list-style-type: disc;
+  padding-left: 25px;
+}
+
+.md-ol {
+  list-style-type: decimal;
+  padding-left: 25px;
+}

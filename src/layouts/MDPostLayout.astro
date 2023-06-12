@@ -6,8 +6,8 @@ import Header from "../components/Header.astro";
 
 import { DESCRIPTION, SITE_TITLE } from "../config";
 
-const { title, topics } = Astro.props;
-console.log("hey", title, topics);
+const { frontmatter } = Astro.props;
+console.log("hey", frontmatter.title, frontmatter.topics);
 ---
 
 <!DOCTYPE html>
