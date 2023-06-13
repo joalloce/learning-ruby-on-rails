@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joalloce.github.io/learning-ruby-on-rails/sitemap-index.xml
+
