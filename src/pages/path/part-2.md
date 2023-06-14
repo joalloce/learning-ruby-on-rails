@@ -1,5 +1,6 @@
 ---
-part: 1
+layout: ../../layouts/MDPathLayout.astro
+part: 2
 ---
 
 # Title

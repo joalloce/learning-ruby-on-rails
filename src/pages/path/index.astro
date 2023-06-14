@@ -1,5 +1,12 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+const allPath = await Astro.glob("./*.md")
 ---
 
-<BaseLayout>Path</BaseLayout>
+<BaseLayout>
+  <h1>Path</h1>
+  <ol>
+  {allPath.map((part,index)=> (<li><a href={part.url}>{`
+  Part ${index + 1}`}</a></li>))}
+  </ol>
+</BaseLayout>

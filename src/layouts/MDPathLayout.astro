@@ -1,0 +1,38 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Body from "../components/Body.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import NextButton from "../components/NextButton";
+import PreviousButton from "../components/PreviousButton"
+
+import { DESCRIPTION, SITE_TITLE } from "../config";
+
+const allPath = await Astro.glob("../pages/path/*.md")
+const { frontmatter } = Astro.props;
+
+const page = parseInt(frontmatter.part)
+const pages = allPath.length;
+---
+
+<!DOCTYPE html>
+<html lang="en" class="bg-ruby-on-rails">
+  <head>
+    <BaseHead title={SITE_TITLE} description={DESCRIPTION} />
+  </head>
+  <Body>
+    <Header />
+    <main class="pt-16 p-4">
+      <div class="flex justify-between">
+        <PreviousButton page={page} />
+        <NextButton pages={pages} page={page}/>
+      </div>
+      <slot />
+      <div class="pt-4 flex justify-between">
+        <PreviousButton page={page} />
+        <NextButton pages={pages} page={page}/>
+      </div>
+    </main>
+    <Footer />
+  </Body>
+</html>
