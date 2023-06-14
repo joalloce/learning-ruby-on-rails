@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/ProjectLayout.astro
+layout: ../../layouts/ProjectsLayout.astro
 title: "Project"
 ---
 
