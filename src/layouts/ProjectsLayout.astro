@@ -6,13 +6,13 @@ import Header from "../components/Header.astro";
 
 import { DESCRIPTION, SITE_TITLE } from "../config";
 
-const { title, topics } = Astro.props;
+const { frontmatter } = Astro.props;
 ---
 
 <!DOCTYPE html>
 <html lang="en" class="bg-ruby-on-rails">
   <head>
-    <BaseHead title={SITE_TITLE} description={DESCRIPTION} />
+    <BaseHead title={`${frontmatter.title} - ${SITE_TITLE}`} description={DESCRIPTION} />
   </head>
   <Body>
     <Header />
