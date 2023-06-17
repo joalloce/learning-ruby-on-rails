@@ -4,58 +4,154 @@ title: "Title 2"
 topics: ["first", "third"]
 ---
 
-# Gelidae accipe
+# Terram quid
 
-## Est felix aliter terga ritibus omnique quem
+<p>hey<sup>3</sup></p>
 
-Lorem markdownum euntem, Aurora cognovit forent hoc aures, suum arcu sonus
-conplexus nec Liber viroque. Quis aethere tridentigero chelydri; hoc domitis
-subeant colit cessit arcitenens tenus relictum nefas; purgamina. Qualis sed
-precibusque quanto et concepta dedero, sentit noctis primum steterat. Oportuit
-resupinoque illo nequiquam gens repulsus desolatas plerumque verbaque mea
-manibus tamen vultuque.
+~~hey~~
 
-Multa Ultor, vigil excidit, reddite etiamnum at Minyae cedit contra pennis! Sic
-quorum minus intrare aspera videbis. Vobis _Sirinosque inferior_ non amore
-Mycenae et loca non, sine Tempus. Vestibus posses illi monstravit quem: orbem
-fuit Augustum se stirpes aliquid qui. **Iam maculavit**!
+1. First ordered list item
+2. Another item
+   ⋅⋅\* Unordered sub-list.
+3. Actual numbers don't matter, just that it's a number
+   ⋅⋅1. Ordered sub-list
+4. And another item.
 
-## Formae fulmen ad nec
+⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
 
-Gemitumque quoque non alto leto exstinguere arte aeternum, nunc quondam,
-retinet. Cinyphius verba; et sitim.
+⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
-_Ascensu_ pennis; neu colla. Et [inquiri genetrixque](http://www.sororis.com/)
-conscendit vate nominis caelesti, et feras tectaque sororum de esse Tres.
-Pollice peregrinaeque erat: mea **enixa geniti** librat voluit, spectabilis.
-Illic exsecrantia micant curvamine, frigusque cernunt induiturque nec est
-plangente abstulit Venulus excutit iugulati passa vola propera. Concipit tamen
-nomenque: laedam et sua ambrosia veniunt deficeret memorant flagrantem.
+- Unordered list can use asterisks
 
-## Male dixit simul erigitur quo peiora
+* Or minuses
 
-Et mandata, dabat rerum adurat _venientia puer_, iam quoque _illum_ simile, nam
-_quam_. Non occulta agros, una pullo delatus, aut calathis rogato sustineam
-facit tuorum superum lauru. Volucresque inducta si sit dum Anguemque membra, Ide
-eodem suis seminaque nymphae veste.
+- Or pluses
 
-Carmine et dextra paterque, [patrios decimum](http://www.cui.com/illic) laudare
-faciat. Vesta temptabat quos montisque, _verba_, dabat ubi plausit, cruore; aevi
-penitusque. **Certa externis** utrumque [fontesque monet
-erat](http://undis.org/) repercusso, quassasque membris.
+[I'm an inline-style link](https://www.google.com)
 
-## Ad exarsit currus
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 
-Terras demurmurat haerent oscula et arbor tantum natorum nec, debes nato vulnus
-esse, attollite parcite. Satis hoc sed, feraxque. Et plebe forte nomen pronis
-aetherioque quos, qualia caperet sed velle flavum, cum.
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
 
-1. Sed mi adventuque in alma ramis utraque
-2. Laomedonve fortuna Aeetias omni vana profeci stabit
-3. Esse ferunt postquam lata
-4. Nomen sine
-5. Ortum impetus ut modo meminere pavidam
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
 
-Lassataque in a audacia femineam exsternata Pylius. Nova minor roseum deorum,
-ramos plus est est ille; cognata. Suus tempore, harenis et dote parens. **In dea
-decoris** colla: doli tamen sit esse lino mortis verum.
+[You can use numbers for reference-style link definitions][1]
+
+Or leave it empty and use the [link text itself].
+
+URLs and URLs in angle brackets will automatically get turned into links.
+http://www.example.com or <http://www.example.com> and sometimes
+example.com (but not on Github, for example).
+
+Some text to show that the reference links can follow later.
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: http://www.reddit.com
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+You can also use words, to fit your writing style more closely[^note].
+
+Inline `code` has `back-ticks around` it.
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+```
+No language indicated, so no syntax highlighting.
+But let's throw in a <b>tag</b>.
+```
+
+Colons can be used to align columns.
+
+| Tables        |      Are      |  Cool |
+| ------------- | :-----------: | ----: |
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      |   centered    |   $12 |
+| zebra stripes |   are neat    |    $1 |
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the
+raw Markdown line up prettily. You can also use inline Markdown.
+
+| Markdown | Less      | Pretty     |
+| -------- | --------- | ---------- |
+| _Still_  | `renders` | **nicely** |
+| 1        | 2         | 3          |
+
+## Rubet domos atque pars numen
+
+Quae et Iuppiter foedumque numinis modo. Favillam ex tecta si recenti harundine
+alimenta. Quae sed facta in una cetera nam reppulit bracchia fictamque, amor!
+Pinus potentem inposito terram [fiducia](http://www.frugum.com/): pavido et
+vidisse Coae minimam, vigilat parte cruori inpleat, este. Valuere salutant fieri
+tuentem patent, opem arces conciperet, erat et o sibila forsitan et.
+
+    if (public_rpm(bar_winsock, google_rom.point_hypermedia(uncIbmSata(adf,
+            push_search, smartphone), ldapNosqlSuperscalar(folder_dpi_cd,
+            dataClickMysql, spoofingKbps), multiprocessing), 3 * fi)) {
+        load_box.impact(menuPrebinding);
+        ios_peripheral_irq += application;
+        on(io * folder, cpm_social(middleware_blu, ajax), fileHardwareMemory +
+                pum);
+    }
+    default_jquery += pci;
+    if (midi) {
+        lteTextRaid.rdramVrmlRdram.smishing(-1 * model_snow_overclocking,
+                356693, printer_switch);
+        tweet.hardening_ctp += 3;
+        bar_file_hacker.lcd = seo;
+    } else {
+        mac_us_rw.surgeWeb *= vlogHardDual;
+    }
+    click += megahertz(-1, tweetBittorrentPdf);
+    ole += motion;
+
+Vidit videri: nec lumina si Surgit currum; ore loca subita velamina filis _de
+quod_ deprensa. Tellus constitit sponte documenta forum ad coniunx qua moveat,
+inimica subiit iram ipse! Deo haud, clamant torrentem _temptamina utque_ tibi
+quoque, ferax; tui quae numina, licet.
+
+## Est manum Musa cruribus sua accipit
+
+Mutato invitusque Nestor: et onus amor: manibus quo tamen leto, et! Saxa sic cum
+sucis nomenque obsessa.
+
+    var row_bloatware_open = point_spoofing(ppcNas, keyDenial - undoSimplex) +
+            phreaking;
+    boxSwitch.wavelength_webmaster_spreadsheet += thermistorBlacklistOn;
+    if (ispRaid * linux_favorites_soap + 3) {
+        esports(us_file);
+        cloud_cps_ad(throughputOlapThird);
+    } else {
+        cross.downloadDriverDisk += localhostOspf(system_w);
+        unfriendFirmware = kerning_metal;
+        gateway += software;
+    }
+
+Iphi lassa: aut maturo oras ossibus magna contra et de praebentque colla anxia
+inpleat misisset, non parentur! Repetita armos Athos formidine matris. Summa
+succidit, exigit iuventus perdere gerit in tenebras hac munere causa. _Non
+agros_ et speciem amantem renidenti liquitur utque ipsamque hospita servas
+inventa inscribenda quem?
+
+[^1]: My reference.
+[^2]:
+    Every new line should be prefixed with 2 spaces.  
+    This allows you to have a footnote with multiple lines.
+
+[^note]:
+    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
+    This footnote also has been made with a different syntax using 4 spaces for new lines.
