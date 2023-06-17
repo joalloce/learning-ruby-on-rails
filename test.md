@@ -1,8 +1,3 @@
----
-layout: ../../layouts/MDPathLayout.astro
-part: 1
----
-
 # Temperat est
 
 ## Fuerit quo equos

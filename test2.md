@@ -1,8 +1,3 @@
----
-layout: ../../layouts/MDPathLayout.astro
-part: 2
----
-
 # Membra neve
 
 ## Timuit aquis sis vulnera

@@ -1,8 +1,22 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+const allPosts = await Astro.glob("../posts/*.md");
+
+const topics = [
+  ...new Set(allPosts.map((post) => post.frontmatter.topics).flat()),
+];
 ---
 
 <BaseLayout pageTitle="Topics">
   <h1 class="text-2xl font-bold">Topics</h1>
-  <hr class="my-4">
+  <hr class="my-4" />
+  <ul class="pl-4 list-disc">
+    {
+      topics.map((topic) => (
+        <li>
+          <a href={`topics/${topic}`}>{topic}</a>
+        </li>
+      ))
+    }
+  </ul>
 </BaseLayout>
