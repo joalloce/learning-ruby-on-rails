@@ -4,6 +4,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .md-h1 {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -84,12 +88,20 @@ body {
   border-color: #D30001;
   color:gray;
   padding-left: 25px;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+
 }
 
 pre {
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+}
+
+.md-table, .md-td, .md-th{
+  border: 1px solid;
+  padding: 6px 13px;
+}
+
+.md-code {
+  background: lightgrey;
 }
