@@ -1,0 +1,51 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export interface Frontmatter {
+  topics: string[];
+  title: string;
+}
+export interface Post {
+  frontmatter: Frontmatter;
+  url: string;
+}
+
+export async function getStaticPaths() {
+  const allPosts = await Astro.glob("../posts/*.md");
+
+  const uniqueTopics = [
+    ...new Set(allPosts.map((post) => post.frontmatter.topics).flat()),
+  ];
+
+  return uniqueTopics.map((topic) => {
+    const filteredPosts = allPosts.filter((post) =>
+      post.frontmatter.topics.includes(topic)
+    );
+    return {
+      params: { topic },
+      props: { posts: filteredPosts },
+    };
+  });
+}
+
+const { tag } = Astro.params;
+let topicString: string = tag !== undefined ? tag : ""; // Mmmm
+const { posts } = Astro.props;
+const filteredPosts = posts.filter((post: Post) =>
+  post.frontmatter.topics.includes(topicString)
+);
+---
+
+<BaseLayout pageTitle="Topics">
+  <h1 class="text-2xl font-bold">Topics</h1>
+  <hr class="my-4" />
+  <ul class="pl-4 list-disc">
+    {
+      posts.map((post: Post) => (
+        <li>
+          <a href={post.url}>{post.frontmatter.title}</a>
+        </li>
+      ))
+    }
+  </ul>
+</BaseLayout>

@@ -4,99 +4,58 @@ title: "Title 2"
 topics: ["first", "third"]
 ---
 
-# Credit Card Validation System
+# Gelidae accipe
 
-This app takes credit card information, then sends it to a backend API for validation. The backend responds with either success or failure.
+## Est felix aliter terga ritibus omnique quem
 
-The validation algorithm uses the following rules:
+Lorem markdownum euntem, Aurora cognovit forent hoc aures, suum arcu sonus
+conplexus nec Liber viroque. Quis aethere tridentigero chelydri; hoc domitis
+subeant colit cessit arcitenens tenus relictum nefas; purgamina. Qualis sed
+precibusque quanto et concepta dedero, sentit noctis primum steterat. Oportuit
+resupinoque illo nequiquam gens repulsus desolatas plerumque verbaque mea
+manibus tamen vultuque.
 
-1. The expiry date of the credit card (year and month) must be AFTER present time.
-2. The CVV (security code) of the credit card must be exactly 3 digits long
-   - Unless it’s an American Express card, in which case the CVV must be exactly 4 digits long.
-   - American Express are cards whose PAN (card numbers) starts with either “34” or “37”.
-3. The PAN (card number) is between 16 and 19 digits long.
-4. Last digit of the PAN (card number) is checked using Luhn’s algorithm.
+Multa Ultor, vigil excidit, reddite etiamnum at Minyae cedit contra pennis! Sic
+quorum minus intrare aspera videbis. Vobis _Sirinosque inferior_ non amore
+Mycenae et loca non, sine Tempus. Vestibus posses illi monstravit quem: orbem
+fuit Augustum se stirpes aliquid qui. **Iam maculavit**!
 
-I changed the rule #3 to _"The PAN (card number) is between **15** and 19 digits long."_
+## Formae fulmen ad nec
 
-Why? Because AMEX credit card numbers are 15 digits long.
+Gemitumque quoque non alto leto exstinguere arte aeternum, nunc quondam,
+retinet. Cinyphius verba; et sitim.
 
-## Usage
+_Ascensu_ pennis; neu colla. Et [inquiri genetrixque](http://www.sororis.com/)
+conscendit vate nominis caelesti, et feras tectaque sororum de esse Tres.
+Pollice peregrinaeque erat: mea **enixa geniti** librat voluit, spectabilis.
+Illic exsecrantia micant curvamine, frigusque cernunt induiturque nec est
+plangente abstulit Venulus excutit iugulati passa vola propera. Concipit tamen
+nomenque: laedam et sua ambrosia veniunt deficeret memorant flagrantem.
 
-By default, the app runs with docker-compose.
+## Male dixit simul erigitur quo peiora
 
-```
-docker-compose up
-```
+Et mandata, dabat rerum adurat _venientia puer_, iam quoque _illum_ simile, nam
+_quam_. Non occulta agros, una pullo delatus, aut calathis rogato sustineam
+facit tuorum superum lauru. Volucresque inducta si sit dum Anguemque membra, Ide
+eodem suis seminaque nymphae veste.
 
-If you want to run the application separately, the following steps will get you up and running:
+Carmine et dextra paterque, [patrios decimum](http://www.cui.com/illic) laudare
+faciat. Vesta temptabat quos montisque, _verba_, dabat ubi plausit, cruore; aevi
+penitusque. **Certa externis** utrumque [fontesque monet
+erat](http://undis.org/) repercusso, quassasque membris.
 
-In the backend folder:
+## Ad exarsit currus
 
-```
-npm install
-npm run watch
-```
+Terras demurmurat haerent oscula et arbor tantum natorum nec, debes nato vulnus
+esse, attollite parcite. Satis hoc sed, feraxque. Et plebe forte nomen pronis
+aetherioque quos, qualia caperet sed velle flavum, cum.
 
-In the frontend folder:
+1. Sed mi adventuque in alma ramis utraque
+2. Laomedonve fortuna Aeetias omni vana profeci stabit
+3. Esse ferunt postquam lata
+4. Nomen sine
+5. Ortum impetus ut modo meminere pavidam
 
-```
-npm install
-npm run dev
-```
-
-Then go to http://localhost:7000/
-
-## Test Cases
-
-1. Case #1:
-   Card Number: 378734493671000
-   CVV: 9562
-   Month: 03
-   Year: 34
-   Result: Valid :)
-
-2. Case #2:
-   Card Number: 371449635398430
-   CVV: 3432
-   Month: 03
-   Year: 34
-   Result: Invalid by Luhm Algorithm checksum.
-
-3. Case #3:
-   Card Number: 371449635398430
-   CVV: 3432
-   Month: 03
-   Year: 05
-   Result: Invalid expiry date. Invalid by Luhm Algorithm checksum.
-
-4. Case #4:
-   Card Number: 4309678002102088
-   CVV: 7284
-   Month: 03
-   Year: 28
-   Result: Invalid security code.
-
-5. Case #5:
-   Card Number: 482756184927384595
-   CVV: 581
-   Month: 14
-   Year: 28
-   Result: Please fill the fields correctly.
-
-6. Case #6:
-   Card Number: (Nothing)
-   CVV: 581
-   Month: (Nothing)
-   Year: 28
-   Result: Please fill in all fields.
-
-## Test
-
-You can run tests in the Backend by running the following command:
-
-```
-npm run test
-```
-
-Also, there is a Postman collection with requests to test the Backend API. The file is in backend/postman/ folder.
+Lassataque in a audacia femineam exsternata Pylius. Nova minor roseum deorum,
+ramos plus est est ille; cognata. Suus tempore, harenis et dote parens. **In dea
+decoris** colla: doli tamen sit esse lino mortis verum.
