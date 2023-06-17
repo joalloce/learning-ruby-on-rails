@@ -23,21 +23,28 @@ export async function getStaticPaths() {
     );
     return {
       params: { topic },
-      props: { posts: filteredPosts },
+      props: { posts: filteredPosts, topics: uniqueTopics },
     };
   });
 }
 
-const { tag } = Astro.params;
-let topicString: string = tag !== undefined ? tag : ""; // Mmmm
-const { posts } = Astro.props;
-const filteredPosts = posts.filter((post: Post) =>
-  post.frontmatter.topics.includes(topicString)
-);
+const { topic } = Astro.params;
+const { posts, topics } = Astro.props;
 ---
 
 <BaseLayout pageTitle="Topics">
   <h1 class="text-2xl font-bold">Topics</h1>
+  <hr class="my-4" />
+  <ul class="pl-4 list-disc">
+    {
+      topics.map((topic: string) => (
+        <li>
+          <a href={`${topic}`}>{topic}</a>
+        </li>
+      ))
+    }
+  </ul>
+  <h1 class="text-2xl font-bold">{topic}</h1>
   <hr class="my-4" />
   <ul class="pl-4 list-disc">
     {

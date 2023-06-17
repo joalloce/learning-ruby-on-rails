@@ -1,76 +1,93 @@
 # Terram quid
 
-## Adest sic quae quo quid regionibus Euagrum
+~~hey~~
 
-Lorem markdownum altis faciemque adsumus iterum an fugam felicior sensura
-Minyeidas metuunt Argolicae abdidit terga similes aestu artesque. Doctior
-ignibus non maior dixit oculis [puerilibus
-emisit](http://talis-deciperetur.com/manus) pater educta iugulum admonitus
-condiderat. Sustinet aut loton Graiumque ipse recordor?
+1. First ordered list item
+2. Another item
+   ⋅⋅\* Unordered sub-list.
+3. Actual numbers don't matter, just that it's a number
+   ⋅⋅1. Ordered sub-list
+4. And another item.
 
-## Furibundus Iunonis videt est exspectatum
+⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
 
-Pulsarunt furor infelix fulvis discedite, suum arbor qui, ibi. Cervice matri:
-iuga frigore idem! Et mihi ait rebus utrumque! Formosus adhuc? Quid puduit aurea
-iura quod, superi patet, rogis taciturnus taeda in.
+⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
-    var parity = cronKbpsOutbox(programDockBlog);
-    var byte_reciprocal = 5;
-    mips_firmware_exbibyte(3, 6 * 4 + 54, server);
-    if (computer) {
-        mamp = radcab * clickRecursionNull.pum(5, -2, 2);
-    } else {
-        batchBlacklist.correction_byte = so.record.blobVrml(12);
-        gif = boot_shift(3, 3, 1);
-    }
+- Unordered list can use asterisks
 
-## Fuerat accipiter per
+* Or minuses
 
-Letalem et hoc _medicamina_ scylla contraria ferarum. Laevum flet sinit: laeta
-pestis spatiosa, pennas, cum.
+- Or pluses
 
-    plugDvd(rj_snapshot_newbie, impactInterlacedTween + hypermedia_cycle_string
-            + internalRealCd, domainImpression - hdd_cmyk_wavelength +
-            upsAddressData);
-    var multicasting = jfs;
-    string_frame += exportConfigurationPaste / dvdAlu + protocol.moodleSoft(jsp,
-            -1, fiosTag);
-    ide *= 4;
-    if (uat_koffice_archive) {
-        supply = cpmRawOptical(744980);
-    }
+[I'm an inline-style link](https://www.google.com)
 
-## Sacerdos Aiax similis
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 
-Nostris motae cum, morae sublimis neque. E omnes tamen illo
-[quoque](http://carenon.io/vera-praedictaque.html), sim ipse fuerunt Phineus,
-erit.
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
 
-## Thoantis tot agmine serior temeraria exigit consumpta
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
 
-Pro ille, tenues sit Oete meos Erysicthona quam miserabile. Aequoris e urbis
-remanet; ex boum soror? Elisa obruerat nantemque. Ceris caelo, conceperat
-crescere attulit **partem** incultos vites Daedalion: erat ore sensit et rigidis
-veneno.
+[You can use numbers for reference-style link definitions][1]
 
-    if (phreaking(optical_add, -3)) {
-        hdd = app_down;
-        point = programming(drive_servlet, rpc_overclocking_servlet,
-                telnetTemplateEngine);
-    } else {
-        richUnit = association_dos(menuStation, beta_web, nvram_sku_apache) *
-                clock_subnet_constant;
-        smartphone = eupLogic + ethernetQbe;
-        readerNetworkingPerl = affiliateMoodle;
-    }
-    if (modemIso.metal(4)) {
-        file(73, virtual, software_opacity_facebook);
-    }
-    driveDvd.wheel.minicomputerHost(trackbackTransistorIndex(link_newline_title)
-            + cadWi.powerNumber.drive_navigation(timeEncryption,
-            maximizeMemory), login);
+Or leave it empty and use the [link text itself].
 
-Radice Aesaris cum aetas audet, divitior addat **quem foribus**. Telluris
-teretesque tamen matrem et genae quae inerti regia perque conpellat quam Romana
-fletus nunc? Spissa excipit rerum aves denique pudori sumpserat tandem Mopsopios
-nares, virgineas domino tergoque?
+URLs and URLs in angle brackets will automatically get turned into links.
+http://www.example.com or <http://www.example.com> and sometimes
+example.com (but not on Github, for example).
+
+Some text to show that the reference links can follow later.
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: http://www.reddit.com
+
+Inline `code` has `back-ticks around` it.
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+```
+No language indicated, so no syntax highlighting.
+But let's throw in a <b>tag</b>.
+```
+
+Colons can be used to align columns.
+
+| Tables        |      Are      |  Cool |
+| ------------- | :-----------: | ----: |
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      |   centered    |   $12 |
+| zebra stripes |   are neat    |    $1 |
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the
+raw Markdown line up prettily. You can also use inline Markdown.
+
+| Markdown | Less      | Pretty     |
+| -------- | --------- | ---------- |
+| _Still_  | `renders` | **nicely** |
+| 1        | 2         | 3          |
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+You can also use words, to fit your writing style more closely[^note].
+
+[^1]: My reference.
+[^2]:
+    Every new line should be prefixed with 2 spaces.  
+    This allows you to have a footnote with multiple lines.
+
+[^note]:
+    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
+    This footnote also has been made with a different syntax using 4 spaces for new lines.
