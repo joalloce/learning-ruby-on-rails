@@ -13,3 +13,7 @@ console.log("hey");
 ## A title
 
 lorem
+
+### a mini title
+
+lorem lorem
