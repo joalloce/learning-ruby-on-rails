@@ -8,46 +8,53 @@ body {
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 700;
-  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .md-h2 {
   font-size: 1.875rem;
   line-height: 2.25rem;
   font-weight: 700;
-  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .md-h3 {
 	font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
-  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .md-h4 {
 	font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
-  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .md-h5 {
   font-size: 1.125rem; 
   line-height: 1.75rem; 
   font-weight: 700;
-  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .md-h6 {
 	font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 700;
-  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .md-p {
-  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .md-a {
@@ -58,8 +65,8 @@ body {
 }
 
 .md-hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .md-ul {
@@ -70,4 +77,19 @@ body {
 .md-ol {
   list-style-type: decimal;
   padding-left: 25px;
+}
+
+.md-blockquote{
+  border-left-width: 4px;
+  border-color: #D30001;
+  color:gray;
+  padding-left: 25px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+pre {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
 }
