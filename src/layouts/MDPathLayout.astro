@@ -30,7 +30,9 @@ const pages = allPath.length;
         <PreviousButton page={page} />
         <NextButton pages={pages} page={page} />
       </div>
-      <slot />
+      <article>
+        <slot />
+      </article>
       <div class="pt-4 flex justify-between">
         <PreviousButton page={page} />
         <NextButton pages={pages} page={page} />

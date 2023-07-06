@@ -20,7 +20,9 @@ const { frontmatter } = Astro.props;
   <Body>
     <Header />
     <main class="pt-16 p-4">
-      <slot />
+      <article>
+        <slot />
+      </article>
     </main>
     <Footer />
   </Body>

@@ -5,7 +5,11 @@ import { REPO_URL } from "../config";
 const today = new Date();
 ---
 
-<footer class="text-center p-4 pt-10 text-base">
-  <span>{today.getFullYear()}</span>
-  <a class="hover:underline hover:text-red-700" href={REPO_URL} target="_blank"><GitHubIcon />Source</a>
+<footer
+  class="flex max-h-20 justify-center items-center al p-4 pt-10 text-base"
+>
+  <span class="mr-1">{today.getFullYear()}</span>
+  <a class="hover:underline hover:text-red-700" href={REPO_URL} target="_blank"
+    ><GitHubIcon />Source</a
+  >
 </footer>

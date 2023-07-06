@@ -65,3 +65,7 @@ ipsis **natum**, rediit. Natus chelydri et aves duro interea formam calcitrat
 lapidis Memnonis tenebroso. Silvis Phoebi, serta disiectum solacia
 [et](http://anni.com/currus.html) quoque iuvenci socialia suarum te sacrificos
 dictis lapis.
+
+```javascript
+console.log("hey");
+```
